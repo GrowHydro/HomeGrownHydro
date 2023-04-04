@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `HomeGrownHydro`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://keyboardkush.com`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
