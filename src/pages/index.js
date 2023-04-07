@@ -1,6 +1,6 @@
 import * as React from "react"
 import "../scss/index.scss"
-
+import kushlogo from '../pictures/bluethclogo.png'
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -130,6 +130,7 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <h1 style={headingStyles}>
         Grow your own Kush
+        <img src={kushlogo} alt="grow your own"/>
         <br />
         <span style={headingAccentStyles}>The founders of America knew weed was a cash crop</span>
       </h1>
